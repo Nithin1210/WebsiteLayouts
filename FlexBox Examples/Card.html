@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexboxCard</title>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img src="DownloadedImages/download1.jpg" alt="Sample photo">
+            <h3>Gold_Dog</h3>
+            <p> Cute dog with a cute Face</p>
+            <button>Done</button>
+        </div>
+
+        <div class="card">
+            <img src="DownloadedImages/download2.jpg" alt="Sample photo">
+            <h3>White_Dog</h3>
+            <p> Lol , this is searching for a SoulMate </p>
+            <button>Done</button>
+        </div>
+
+        <div class="card">
+            <img src="DownloadedImages/download3.jpg" alt="Sample photo">
+            <h3>Dog in Garden</h3>
+            <p> This dog is having Fun in the Garden </p>
+            <button>Done</button>
+        </div>
+
+        <div class="card">
+            <img src="DownloadedImages/download4.jpg
+            " alt="Sample photo">
+            <h3>Black Dog</h3>
+            <p>Relaxing in the Garden ,Having fun</p>
+            <button>Done</button>
+        </div>
+
+        <div class="card">
+            <img src="DownloadedImages/images5.jpg" alt="Sample photo">
+            <h3>Empty Dog</h3>
+            <p>Looks like its a Shock !!</p>
+            <button>Done</button>
+        </div>
+
+        <div class="card">
+            <img src="DownloadedImages/images6.jpg" alt="Sample photo">
+            <h3>Muscle Dog</h3>
+            <p> Challenging other's for 1vs1</p>
+            <button>Done</button>
+        </div>
+    </div>
+</body>
+
+<style>
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        background-color: #fff;
+    }
+
+    .card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .card p {
+        margin-top: 10px;
+        color: #555;
+    }
+
+    .card button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+</style>
+
+</html>
